@@ -58,8 +58,8 @@ public class Main {
         mahasiswa1.nama = "elang";
         mahasiswa1.nim = 123;
         mahasiswa1.nilai = 75;
-        mahasiswa1.nilai_akhir = 'C';
-        mahasiswa1.status = "lulus";
+//        mahasiswa1.nilai_akhir = 'C';
+//        mahasiswa1.status = "lulus";
         mahasiswa1.getInfoMahasiswa();
     }
 }
