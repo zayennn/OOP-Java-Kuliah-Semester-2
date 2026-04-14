@@ -61,5 +61,9 @@ public class Main {
         System.out.print("Masukan nim mahasiswa : ");
         mahasiswa1.nim = input.nextInt();
         input.nextLine();
+
+        System.out.print("Masukan nilai mahasiswa : ");
+        mahasiswa1.nilai = input.nextInt();
+        input.nextLine();
     }
 }
