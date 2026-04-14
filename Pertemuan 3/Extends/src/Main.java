@@ -65,5 +65,7 @@ public class Main {
         System.out.print("Masukan nilai mahasiswa : ");
         mahasiswa1.nilai = input.nextInt();
         input.nextLine();
+
+        mahasiswa1.setStatus();
     }
 }
