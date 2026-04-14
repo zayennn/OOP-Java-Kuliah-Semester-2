@@ -67,5 +67,6 @@ public class Main {
         input.nextLine();
 
         mahasiswa1.setStatus();
+        mahasiswa1.getInfoMahasiswa();
     }
 }
