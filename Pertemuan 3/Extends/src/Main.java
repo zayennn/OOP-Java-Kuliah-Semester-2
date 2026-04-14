@@ -18,6 +18,27 @@ public class Main {
         char nilai_akhir;
         String status = "";
 
+        public void setStatus() {
+            if (this.nilai < 0 || this.nilai > 100) {
+                throw new IllegalArgumentException("this.nilai tidak boleh kurang dari 0 atau lebih dari 100!");
+            } else if (this.nilai > 85) {
+                this.nilai_akhir = 'A';
+                this.status += "lulus";
+            } else if (this.nilai > 75) {
+                this.nilai_akhir = 'B';
+                this.status += "lulus";
+            } else if (this.nilai > 65) {
+                this.nilai_akhir = 'C';
+                this.status += "lulus tapi direkomendasikan untuk her";
+            } else if (this.nilai > 50) {
+                this.nilai_akhir = 'D';
+                this.status += "her";
+            } else {
+                this.nilai_akhir = 'E';
+                this.status = "her";
+            }
+        }
+
         @Override
         public void getInfoMahasiswa() {
             System.out.printf("""
