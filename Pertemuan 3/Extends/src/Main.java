@@ -55,11 +55,11 @@ public class Main {
         Scanner input = new Scanner(System.in);
         TambahMahasiswa mahasiswa1 = new TambahMahasiswa();
 
-        mahasiswa1.nama = "elang";
-        mahasiswa1.nim = 123;
-        mahasiswa1.nilai = 75;
-//        mahasiswa1.nilai_akhir = 'C';
-//        mahasiswa1.status = "lulus";
-        mahasiswa1.getInfoMahasiswa();
+        System.out.print("Masukan nama mahasiswa : ");
+        mahasiswa1.nama = input.nextLine();
+
+        System.out.print("Masukan nim mahasiswa : ");
+        mahasiswa1.nim = input.nextInt();
+        input.nextLine();
     }
 }
