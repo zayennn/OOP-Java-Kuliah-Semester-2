@@ -42,6 +42,8 @@ public class Main {
         @Override
         public void getInfoMahasiswa() {
             System.out.printf("""
+                    
+                    ============= Status Mahasiswa =============
                     Nama Mahasiswa          : %s
                     NIM Mahasiswa           : %d
                     Nilai Mahasiswa         : %d
