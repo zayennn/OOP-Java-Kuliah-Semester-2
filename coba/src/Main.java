@@ -1,11 +1,11 @@
 public class Main {
     static class Test {
-        Test() {
+        void Coba() {
             System.out.print("test");
         }
     }
 
     public static void main(String[] args) {
-        Test test = new Test();
+
     }
 }
