@@ -11,7 +11,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ArrayList<Mahasiswa> mahasiswas = new ArrayList<>();
-        ServiceMahasiswa serviceMahasiswa = new ServiceMahasiswa();
 
         mahasiswas.addAll(Arrays.asList(
                 new Mahasiswa("elang", 15250506, 85),
@@ -21,6 +20,6 @@ public class Main {
 
         mahasiswas.stream()
                 .filter(mahasiswa -> mahasiswa.nilai > 75)
-                .forEach(serviceMahasiswa::getInfoMahasiswas);
+                .forEach(ServiceMahasiswa::getInfoMahasiswas);
     }
 }
