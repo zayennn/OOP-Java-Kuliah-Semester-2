@@ -8,8 +8,8 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        ArrayList<Mahasiswa> mahasiswas = new ArrayList<>();
+        Mahasiswa mahasiswas = new Mahasiswa();
 
-        mahasiswas.
+
     }
 }
