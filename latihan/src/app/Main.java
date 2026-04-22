@@ -47,6 +47,10 @@ public class Main {
                 case 2:
                     System.out.print("Masukan nama mahasiswa : ");
                     String nama = input.nextLine();
+
+                    System.out.print("Masukan nim mahasiswa : ");
+                    int nim = input.nextInt();
+                    input.nextLine();
             }
         }
     }
