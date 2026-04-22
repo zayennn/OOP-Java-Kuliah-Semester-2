@@ -36,7 +36,7 @@ public class Main {
 
             switch (menu) {
                 case 1:
-                    mahasiswas.forEach();
+                    mahasiswas.forEach(ServiceMahasiswa::getInfoMahasiswas);
             }
         }
     }
