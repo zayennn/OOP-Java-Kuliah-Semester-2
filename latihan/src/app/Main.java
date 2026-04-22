@@ -30,7 +30,7 @@ public class Main {
                     7. Keluar
                     """);
 
-            System.out.print("Masukan menu pilihan anda (1/2/3/4/5/6) : ");
+            System.out.print("\nMasukan menu pilihan anda (1/2/3/4/5/6) : ");
             int menu = input.nextInt();
             input.nextLine();
 
