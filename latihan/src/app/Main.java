@@ -51,6 +51,10 @@ public class Main {
                     System.out.print("Masukan nim mahasiswa : ");
                     int nim = input.nextInt();
                     input.nextLine();
+
+                    System.out.print("Masukan nilai mahasiswa : ");
+                    int nilai = input.nextInt();
+                    input.nextLine();
             }
         }
     }
