@@ -36,7 +36,12 @@ public class Main {
 
             switch (menu) {
                 case 1:
-                    mahasiswas.forEach(ServiceMahasiswa::getInfoMahasiswas);
+                    int count = 0;
+                    for (Mahasiswa mhs : mahasiswas) {
+                        count++;
+                        System.out.printf("========= Mahasiswa ke - %d =========", count);
+                        ServiceMahasiswa.getInfoMahasiswas(mhs);
+                    }
             }
         }
     }
