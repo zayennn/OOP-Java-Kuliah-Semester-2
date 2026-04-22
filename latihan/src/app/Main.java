@@ -2,6 +2,7 @@ package app;
 
 import modules.Mahasiswa;
 
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -11,8 +12,9 @@ public class Main {
         ArrayList<Mahasiswa> mahasiswas = new ArrayList<>();
 
         mahasiswas.addAll(
-                new Mahasiswa("elang", 15250506, 85),
-                new Mahasiswa("capyking", 15250708, 90)
+                Arrays.asList(
+                        new Mahasiswa("elang", 15250506, 85)
+                )
         );
     }
 }
