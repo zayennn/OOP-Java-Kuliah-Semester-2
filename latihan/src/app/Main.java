@@ -42,6 +42,11 @@ public class Main {
                         System.out.printf("========= Mahasiswa ke - %d =========", count);
                         ServiceMahasiswa.getInfoMahasiswas(mhs);
                     }
+                    return;
+
+                case 2:
+                    System.out.print("Masukan nama mahasiswa : ");
+                    String nama = input.nextLine();
             }
         }
     }
