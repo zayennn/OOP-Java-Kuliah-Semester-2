@@ -1,7 +1,5 @@
 package modules;
 
-import java.util.Collections;
-
 public class Mahasiswa {
     public String nama;
     public int nim;
