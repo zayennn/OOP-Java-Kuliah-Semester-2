@@ -11,10 +11,14 @@ public class Main {
         Scanner input = new Scanner(System.in);
         ArrayList<Mahasiswa> mahasiswas = new ArrayList<>();
 
-        mahasiswas.addAll(
-                Arrays.asList(
-                        new Mahasiswa("elang", 15250506, 85)
-                )
-        );
+        mahasiswas.addAll(Arrays.asList(
+                new Mahasiswa("elang", 15250506, 85),
+                new Mahasiswa("capyking", 15250507, 75),
+                new Mahasiswa("capypoter", 15250508, 95)
+        ));
+
+        mahasiswas.stream()
+                .filter(mahasiswa -> mahasiswa.nilai > 75)
+                .forEach(Mahasiswa::);
     }
 }
