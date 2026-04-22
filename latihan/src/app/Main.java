@@ -21,17 +21,23 @@ public class Main {
         while (true) {
             System.out.print("""
                     Manajemen Mahasiswa
-                    1. Tambah mahasiswa
-                    2. Hapus mahasiswa
-                    3. Cari mahasiswa berdasarkan nama/nim
-                    4. Urutkan mahasiswa berdasarkan nilai/nim
-                    5. Filter mahasiswa berdasarkan nilai tertinggi/terendah
-                    6. Keluar
+                    1. Lihat semua daftar mahasiswa
+                    2. Tambah mahasiswa
+                    3. Hapus mahasiswa
+                    4. Cari mahasiswa berdasarkan nama/nim
+                    5. Urutkan mahasiswa berdasarkan nilai/nim
+                    6. Filter mahasiswa berdasarkan nilai tertinggi/terendah
+                    7. Keluar
                     """);
 
             System.out.print("Masukan menu pilihan anda (1/2/3/4/5/6) : ");
             int menu = input.nextInt();
             input.nextLine();
+
+            switch (menu) {
+                case 1:
+                    mahasiswas.forEach();
+            }
         }
     }
 }
