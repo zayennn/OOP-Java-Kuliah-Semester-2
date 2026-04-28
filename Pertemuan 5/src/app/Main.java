@@ -4,12 +4,14 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        File file = new File("data.txt");
+        int i, j;
+        double total = 0;
+        String[] jenis, ukuran, nama;
+        int[] jumlah_beli;
+        double[] harga, jumlah_harga, pajak, total_bayar;
 
-        if (file.exists()) {
-            System.out.println("file aja");
-        } else {
-            System.out.println("file tidak ada");
-        }
+        jenis = new String[10];
+
+        System.out.println(jenis);
     }
 }
