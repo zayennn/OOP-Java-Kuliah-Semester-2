@@ -18,7 +18,11 @@ public class Main {
         jenis[4] = "celana";
 
         for ( int k = 0; k < jenis.length; k++ ) {
-            System.out.println(k);
+            if (jenis == null) {
+                System.out.println("belum ada produk");
+            } else {
+                System.out.println(jenis[k]);
+            }
         }
     }
 }
