@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        File file = new File("data.txt");
+        File file = new File("./data.txt");
 
         if (file.exists()) {
             System.out.println("file aja");
