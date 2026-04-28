@@ -11,5 +11,7 @@ public class Main {
         } else {
             System.out.println("file tidak ada");
         }
+
+        System.out.println(file.getAbsolutePath());
     }
 }
