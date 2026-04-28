@@ -11,7 +11,8 @@ public class Main {
         double[] harga, jumlah_harga, pajak, total_bayar;
 
         jenis = new String[10];
+        jenis[1] = "baju";
 
-        System.out.println(jenis);
+        System.out.println(jenis[0]);
     }
 }
