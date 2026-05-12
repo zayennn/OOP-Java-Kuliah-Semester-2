@@ -27,6 +27,9 @@ public class Main {
             }
         });
 
+        frame.add(label1);
+        frame.add(button1);
+
         frame.setSize(500, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
