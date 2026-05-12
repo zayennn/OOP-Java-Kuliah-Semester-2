@@ -11,6 +11,9 @@ public class Main {
         JLabel label1 = new JLabel("masukan nama anda: ");
         label1.setBounds(50, 50, 300, 50);
 
+        JTextField textField1 = new JTextField();
+        textField1.setBounds(50, 70, 300, 50);
+
         JButton button1 = new JButton("selesai");
         button1.setBounds(20, 100, 100, 50);
 
