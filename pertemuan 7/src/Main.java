@@ -9,18 +9,7 @@ public class Main {
         JFrame frame = new JFrame("aplikasi pertama");
         frame.setLayout(null);
 
-        JButton button = new JButton("click aku");
 
-        button.setBounds(100, 100, 100, 50);
-
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "aplikasi kedua");
-            }
-        });
-
-        frame.add(button);
 
         frame.setSize(500, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
