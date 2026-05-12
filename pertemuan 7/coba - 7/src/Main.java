@@ -24,7 +24,7 @@ public class Main {
             public void actionPerformed(ActionEvent e) {
                 String name = textFieldName.getText().trim();
                 if (name.equalsIgnoreCase("")) {
-                    throw new IllegalArgumentException("nama tidak boleh kosong");
+                    JOptionPane.showMessageDialog(null, "nama tidak boleh kosong");
                 } else {
                     JOptionPane.showMessageDialog(null, String.format("halo %s", name));
                 }
