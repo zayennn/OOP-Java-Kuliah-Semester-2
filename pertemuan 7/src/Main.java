@@ -14,8 +14,6 @@ public class Main {
         JPanel panel = new JPanel();
         panel.setLayout(new FlowLayout());
         panel.add(new JButton("button 1"));
-        panel.add(new JButton("button 1"));
-        panel.add(new JButton("button 1"));
 
         frame.add(panel);
         frame.setVisible(true);
