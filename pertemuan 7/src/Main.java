@@ -7,6 +7,8 @@ import java.awt.event.ActionListener;
 public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame("aplikasi pertama");
+        frame.setLayout(null);
+
         JButton button = new JButton("click aku");
 
         button.setBounds(100, 100, 100, 50);
