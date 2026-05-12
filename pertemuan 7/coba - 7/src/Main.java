@@ -15,6 +15,8 @@ public class Main {
         );
 
         JTextField textFieldName  = new JTextField();
+        textFieldName.setMaximumSize(new Dimension(300, 30));
+        textFieldName.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         JButton button = new JButton("check nama kamu");
         button.addActionListener(new ActionListener() {
