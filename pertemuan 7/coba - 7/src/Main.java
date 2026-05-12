@@ -6,6 +6,7 @@ public class Main {
         JFrame frame = new JFrame("flexbox: flex direction");
         frame.setSize(500, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
 
         JPanel panel = new JPanel();
         panel.setLayout(
