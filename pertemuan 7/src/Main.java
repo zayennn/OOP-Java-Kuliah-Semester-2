@@ -31,6 +31,7 @@ public class Main {
         });
 
         frame.add(label1);
+        frame.add(textField1);
         frame.add(button1);
 
         frame.setSize(500, 500);
